@@ -1,0 +1,2 @@
+Usando "DELETE FROM" resulta em uma deleção dos dados, mas tais dados são armazenados ainda temporariamente, não liberando espaço em disco. Caso você queira deletar permanentemente esses dados existe uma função chamada "VACUUM" que deleta permanentemente esses dados.
+Já a função "TRUNCATE TABLE" não verifica nem escaneia as tabelas, ela simplesmente deleta todos os dados, devolvendo o espaço em disco antes utulizado pelos dados.
